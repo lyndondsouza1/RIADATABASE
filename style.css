@@ -124,11 +124,12 @@ nav button {
 	border-radius: 0;
 }
 .hero-content {
-	width: 50%;
 }
 .hero-content h1 {
+
+	margin: 0;
 	text-align: right;
-	font-size: 4.25em;
+	font-size: 3em;
 	font-weight: var(--fw-m);
 }
 .hero-content p {
