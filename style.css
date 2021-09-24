@@ -104,15 +104,15 @@ nav button {
 }
 .navbarbrand {
 	font-weight: var(--fw-m);
-	font-size: 3em;
-	padding-right: 10px;
+	font-size: 2.5em;
+	padding-right: 5px;
 	color: white;
 }
 #navbardrop {
 }
 #hero {
 	background-image: url("./psdhero.png");
-	background-size: contain;
+	background-size: cover;
 	color: white;
 	height: 90vh;
 	margin: 0;
@@ -124,23 +124,24 @@ nav button {
 	border-radius: 0;
 }
 .hero-content {
+	width: 70%;
 }
 .hero-content h1 {
 
 	margin: 0;
 	text-align: right;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: var(--fw-m);
 }
 .hero-content p {
 	text-align: right;
 
-	font-size: 2em;
+	font-size: 1.75em;
 	font-weight: var(--fw-book);
 }
 
 #hero-footer p {
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: var(--fw-m);
 }
 #hero-footer {
