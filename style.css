@@ -75,8 +75,13 @@ nav {
 		rgba(149, 8, 108, 1) 88%
 	);
 	height: 20vh;
+	flex-grow: 1;
 }
+#navbarTogglerDemo03{
+	flex-grow: 1;
+	margin: auto;
 
+}
 nav i {
 	color: white;
 	border: none;
@@ -84,7 +89,10 @@ nav i {
 	font-size: var(--fs-l);
 	padding: 0;
 }
-
+nav .item {
+	flex-grow: 1;
+	margin-left: auto;
+}
 nav a {
 	font-size: var(--fs-l);
 	color: white;
@@ -93,6 +101,7 @@ nav a {
 .nav-link {
 	font-size: 2.5em;
 	font-weight: var(--fw-m);
+	margin: auto;
 }
 
 nav button {
@@ -210,7 +219,7 @@ input {
 	font-family: inherit !important;
 	padding: 0.5rem 1rem !important;
 	background-color: #fff !important;
-	border: 2px solid var(--input-border) !important;
+	border: 2px solid grey !important;
 	border-radius: 0 !important;
 	height: 82px !important;
 	width: 100%;
@@ -295,9 +304,24 @@ form {
 		color: white;
 		padding-right: 20px;
 	}
+	nav .nav-item {
+		flex-grow: 1;
+		margin: 0;
+		margin-left: auto;
+	}
 	.nav-link {
 		font-size: 2.5em;
 		font-weight: var(--fw-m);
+		margin: 0;
+		margin-left: auto;
+	}
+	#navbarTogglerDemo03{
+		flex-grow: 1;
+	}
+	#navbarTogglerDemo03 .navbar-nav {
+		display: flex;
+		flex-direction: row;
+		flex-grow: 1;
 	}
 	.navbarbrand {
 		font-weight: var(--fw-bold);
@@ -370,7 +394,7 @@ form {
 		font-family: inherit !important;
 		padding: 0.5rem 1rem !important;
 		background-color: #fff !important;
-		border: 2px solid var(--input-border) !important;
+		border: 2px solid grey !important;
 		border-radius: 0 !important;
 		height: 82px !important;
 		width: 100%;
